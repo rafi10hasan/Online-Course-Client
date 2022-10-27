@@ -15,7 +15,7 @@ const Leftside = () => {
       <div>
         {categories.map((category) => (
           <p key={category.id}>
-            <Link to={`/courses/${category.id}`}>{category.name}</Link>
+            <Link className="underline-hide" to={`/courses/${category.id}`}>{category.name}</Link>
           </p>
         ))}
       </div>

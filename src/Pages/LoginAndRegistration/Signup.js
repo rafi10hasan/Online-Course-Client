@@ -30,6 +30,7 @@ const Signup = () => {
                 form.reset();
                 handleUpdateUserProfile(name, photoURL);
                 toast.success('Registration is successfully.')
+                console.log("asdkaskdasd")
             })
             .catch(e => {
                 console.error(e);
@@ -45,7 +46,7 @@ const Signup = () => {
 
         updateUserProfile(profile)
             .then(() => { })
-            .catch(error => console.error(error));
+            .catch(error => console.log(error));
     }
 
    

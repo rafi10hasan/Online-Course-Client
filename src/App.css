@@ -48,3 +48,8 @@
   color: rgb(214, 211, 211);
 }
 
+
+.underline-hide{
+  text-decoration: none;
+  font-size: 18px;
+}
