@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.course-name a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.course-name a:hover{
+  color: rgb(214, 211, 211);
+}
+
