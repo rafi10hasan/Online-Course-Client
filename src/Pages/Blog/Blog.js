@@ -50,7 +50,7 @@ const Blog = () => {
       </Accordion>
     </div>
   );
-  <h1>blog</h1>
+  
 };
 
 export default Blog;
