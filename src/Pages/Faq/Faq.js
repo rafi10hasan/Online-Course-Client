@@ -101,6 +101,7 @@ const Faq = () => {
       </Accordion>
     </div>
   );
+  <h1>faq</h1>
 };
 
 export default Faq;
