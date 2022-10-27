@@ -27,7 +27,7 @@ const CourseDetails = () => {
            
         </div>
     );
-    <h1>courseDetails</h1>
+    
 };
 
 export default CourseDetails;
